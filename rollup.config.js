@@ -8,7 +8,7 @@ const targetDir = process.env.STORE_DIR && process.env.STORE_DIR.length>0? proce
 export default [{
   input: 'src/index.ts',
   output: {
-    file: targetDir +'/buttonPage.js',
+    file: targetDir +'/cwbButtonLocalstorage.js',
     format: 'esm',
     sourcemap: true,
   },

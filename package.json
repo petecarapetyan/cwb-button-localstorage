@@ -4,6 +4,7 @@
   "description": "sometimes you need to rollup a web component",
   "main": "index.js",
   "scripts": {
+    "promote": "rollup -c && cp docs/cwbButtonLocalstorage* ../cwb-mpa-test-site/docs/_assets/",
     "build": "rollup -c",
     "start": "node server.js"
   },
